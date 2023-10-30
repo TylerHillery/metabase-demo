@@ -1,0 +1,7 @@
+  metabase:
+    image: ${MIMG}/metabase
+    container_name: metabase
+    depends_on:
+       - materialized
+    ports:
+      - 3030:3000
