@@ -4,7 +4,7 @@ This repo is a playground to learn how to use Metabase. Using dlt to load data f
 
 # Results
 
-I created some sample visualizes which Metabase calls *Metabase* calls *Questions*. I really like this phrasing because every visualize should be trying to answer some question. You can add these questions
+I created some sample visualizes which Metabase calls *Metabase* calls *Questions*. I really like this phrasing because every visualize should be trying to answer some question. You can add these questions to a dashboard along with other things like text, link cards etc.
 
 Some features I really enjoyed 
 - ***X-Rays***: Metabase will generate automatically generate dashboards and graphs from your data or other graphs as you drill into them. One of the most common things someone does when looking at a dashboard is wanted to drill down into certain parts to see what's is driving this trend. Metabase makes this really easy to do.
