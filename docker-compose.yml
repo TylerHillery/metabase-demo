@@ -1,7 +1,10 @@
+version: '3.7'
+services:
   metabase:
-    image: ${MIMG}/metabase
+    image: metabase
+    build: ./metabase
     container_name: metabase
-    depends_on:
-       - materialized
     ports:
-      - 3030:3000
+      - 3000:3000
+    volumes:
+      - ./datagen/yfinance.duckdb:/usr/app/data/yfinance.duckdb

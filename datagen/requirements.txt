@@ -1,4 +1,4 @@
 dlt==0.3.22
 dlt[duckdb]==0.3.22
-pyarrow==13.0.0
+duckdb==0.9.1
 yfinance==0.2.31
